@@ -1,8 +1,14 @@
 //find a way to make this work in a different way. Instead add this attribute to the variable topics and get rid of buttons in html, create them in javascript?
 var topics = ['Michael Scott', 'Dwight Schrute', 'Shane Walsh', 'Rick Grimes'];
 
+$('#Michael').append(topics[0]);
+$('#Dwight').append(topics[1]);
+$('#Shane').append(topics[2]);
+$('#Rick').append(topics[3]);
+
 $('button').on('click', function() {
-var person = $(this).attr("data-person");
+
+var person = $(this).attr("button");
 //might need new api key. Most likely
 var queryURL = 'http://api.giphy.com/v1/gifs/search?q=' + person + '&api_key=dc6zaTOxFJmzC&limit=10';
 
