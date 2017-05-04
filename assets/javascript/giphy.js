@@ -97,7 +97,7 @@ $(document).ready(function() {
         event.preventDefault();
         var giphy = $('#giphy-input').val().trim();
         topics.push(giphy);
-        //               //
+        //  Not sure which function to call here //
     })
 
 
