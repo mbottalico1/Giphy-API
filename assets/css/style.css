@@ -2,3 +2,8 @@ body {
 	background-image: url('../images/dark_wood1.png');
 }
 
+#giphy-form {
+	float: right;
+	margin-right: 300px;
+	margin-top: 60px;
+}

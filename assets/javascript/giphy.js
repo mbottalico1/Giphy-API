@@ -93,6 +93,12 @@ $(document).ready(function() {
     })
 
 
+    $('#add-gif').on('click', function(event) {
+        event.preventDefault();
+        var giphy = $('#giphy-input').val().trim();
+        topics.push(giphy);
+        //               //
+    })
 
 
 });
